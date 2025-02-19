@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-6"?>
 
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
@@ -153,16 +153,15 @@ under the License.
          |
         <mirror>
           <id>mirrorId</id>
-          <mirrorOf>repositoryId</mirrorOf>
+<mirrorOf>repositoryId</mirrorOf>
           <name>Human Readable Name for this Mirror.</name>
-          <url>http://my.repository.com/repo/path</url>
+        <url>http://my.repository.com/repo/path</url>
         </mirror>
          -->
-        <mirror>
-            <id>maven-default-http-blocker</id>
+        <mirror>     <id>maven-default-http-blocker</id>
             <mirrorOf>external:http:*</mirrorOf>
             <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
-            <url>http://0.0.0.0/</url>
+        <url>http://0.0.0.0/</url>
             <blocked>true</blocked>
         </mirror>
     </mirrors>
